@@ -1,0 +1,121 @@
+from turtle import *
+
+ # HOUSE
+
+speed (8)
+width (8)
+color ("blue")
+forward (220)
+left (90)
+forward (220)
+left (90)
+forward (220)
+left (90)
+forward (220)
+left (90)
+
+ # DOOR
+
+forward (75)
+left (90)
+begin_fill ()
+color ("red")
+forward(90)
+right (90)
+forward (63)
+right (90)
+forward (90)
+end_fill
+ 
+ # ROOF
+
+penup()
+goto (220,220)
+pendown ()
+begin_fill ()
+color ("light blue")
+right (125)
+forward (137)
+left (70)
+forward (135)
+penup()
+
+ # WINDOW
+ 
+goto (35,135)
+pendown ()
+right (125)
+begin_fill()
+color ("purple")
+forward (45)
+right (90)
+forward (45)
+right (90)
+forward (45)
+right (90)
+forward (45)
+ 
+ # SECOND WINDOW
+
+penup ()
+goto (180,135)
+pendown ()
+color ("purple")
+right (90)
+forward (45)
+left (90)
+forward (45)
+left (90)
+forward (45)
+left (90)
+forward (45)
+
+ # <3 <3
+  
+penup()
+goto (0,0)
+pendown ()
+color ("blue")
+left (180)
+width (7)
+forward (190)
+right (90)
+forward (220)
+right (90)
+forward (190)
+left (180)
+forward (190)
+color ("light blue")
+right (122)
+forward (95)
+right (58)
+forward (245)
+
+ # third window
+penup()
+goto (-40,110)
+left (90)
+pendown ()
+color ("purple")
+width (7)
+forward (60)
+left (90)
+forward (105)
+left (90)
+forward (90)
+left (90)
+forward (105)
+left (90)
+forward (48)
+left (90)
+forward (105)
+right (90)
+forward(41)
+right (90)
+width (1)
+forward (54)
+right (90)
+width (7)
+forward (90)
+
+exitonclick()
