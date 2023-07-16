@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.attribution{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    border: 1px solid rgb(159, 224, 227);
+    border-radius: 15px;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    margin-top: 30vh;
+}
+
+
+img{
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+    margin-top:  85px;
+}
+
+p{
+    color: rgb(124, 120, 120);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.nd{
+    display: flex;
+    border: .5px solid rgba(124, 120, 120, 0.311);
+    border-radius: 0px 0px 15px 15px;
+    margin-top: 42;
+    width: 350px;
+    height: 110px;
+    justify-content: space-around;
+}
+
+.th{
+   margin-top: 8px;
+}
+
+.img{
+    background-image: url(images/bg-pattern-top.svg);
+    height: 800px;
+}
+
+.image{
+    background-image: url(images/bg-pattern-bottom.svg);
+    
+}
