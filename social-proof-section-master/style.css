@@ -1,0 +1,195 @@
+body{
+    display: flex;
+    font-family: 'Hanken Grotesk', sans-serif;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-color:hsl(303, 10%, 53%) ;   
+    --defaulttext-color:hsl(300, 43%, 22%);
+    --defaultreview-width:700px;
+    --defaultreview-height:80px;
+}
+
+@media screen (max-width: 800px ;) {
+        
+}
+
+.firstp{
+    font-size: 4rem;
+    margin-left: 280px;
+    line-height: 1;
+    margin-top: 130px;
+    font-weight: 700;
+    color: var(--defaulttext-color);
+}
+
+.secondp{
+    margin-left:-420px ;
+    color: var(--defaulttext-color);
+    font-weight: 500;
+    margin-top: 380px;
+    line-height: 1.7;
+    font-size: larger;
+}
+
+.reviews{
+    display: flex;
+    width: 700px;
+    height: 80px;
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.firststars{
+    display: flex;
+    width: 350px;   
+    margin-left: 30px;
+}
+
+.firststar {
+    height: 20px;
+    margin-left: 15px;
+}
+
+.firststarsp{
+    color: var(--defaulttext-color);
+    margin-left: -80px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.report{
+    position: absolute;
+    display: flex;
+    height: var(--defaultreview-height);
+    width: var(--defaultreview-width);
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    margin-top: 260px;
+    margin-left: 1390px;
+}
+
+.report{
+    display: flex;
+    align-items: center;    
+}
+
+.secondstars{
+    display: flex;
+    width: 350px;
+    margin-left: 30px;
+}
+
+.secondstar{
+    height: 20px;
+    margin-left: 15px;
+}
+
+.secondstarsp{
+    font-size: 1.3rem ;
+    font-weight: 700;
+    margin-left: -65px;
+}
+
+.besttech{
+    display: flex;
+    position: absolute;
+    height: var(--defaultreview-height);
+    width: var(--defaultreview-width);
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    margin-left: 1500px;
+    margin-top: 380px;
+}
+
+.thirdstars{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.thirdstar{
+    height: 20px;
+    margin-left: 15px;
+}
+
+.thirdstarsp{
+    font-size: 1.3rem ;
+    font-weight: 700;
+    margin-left: -75px;
+    margin-top: 25px;
+}
+
+.colton{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    background-color:hsl(300, 43%, 22%) ;
+    margin-top: 630px;
+    margin-left: 270px;
+    border-radius: 20px;
+    color: white;
+}
+
+.coltonjpg{
+    margin-left: 60px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.coltonp{
+    margin-left: 180px;
+    margin-top: -70px;
+    font-size: 1.3rem;
+}
+
+.ireneroberts{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    background-color:hsl(300, 43%, 22%) ;
+    margin-top: 670px;
+    margin-left: 920px;
+    border-radius: 20px;
+    color: white;
+}
+
+.irenejpg{
+    margin-left: 60px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.irenep{
+    margin-left: 180px;
+    margin-top: -70px;
+    font-size: 1.3rem;
+}
+
+.annewallace{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    background-color:hsl(300, 43%, 22%) ;
+    margin-top: 670px;
+    margin-left: 1590px;
+    border-radius: 20px;
+    color: white;
+}
+
+.annejpg{
+    margin-left: 60px;
+    border-radius: 50%;
+    margin-top: 60px; 
+}
+
+
